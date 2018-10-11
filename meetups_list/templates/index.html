@@ -1,0 +1,14 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Meetup Events Home</h1>
+  <p>Welcome to The Meetup Site, a website developed by <em> Salemandreus</em>!</p>
+  <h2>Dynamic content</h2>
+  <p>Totals:</p>
+  <ul>
+    <li><strong>Meetups:</strong> {{ num_meetups }}</li>
+    <li><strong>Places:</strong> {{ num_spaces }}</li>
+    <li><strong>Free Spaces :</strong> {{ num_spaces_available }}</li>
+    <li><strong>Organisers:</strong> {{ num_organisers }}</li>
+  </ul>
+{% endblock %}
